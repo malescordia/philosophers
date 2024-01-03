@@ -6,7 +6,7 @@
 /*   By: gude-cas <gude-cas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 14:38:38 by gude-cas          #+#    #+#             */
-/*   Updated: 2023/12/29 18:28:25 by gude-cas         ###   ########.fr       */
+/*   Updated: 2024/01/03 12:23:24 by gude-cas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ t_data				*info(void);
 void				write_message(t_philo *philo, char *str);
 int					check_args(int ac, char **av);
 void				init_data(char **av);
-void				init_threads(void);
+void				philosophers(void);
 void				*routine(void *arg);
 int					philo_starved(t_philo *philo);
 int					check_death(void);

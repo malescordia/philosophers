@@ -6,7 +6,7 @@
 /*   By: gude-cas <gude-cas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 14:39:16 by gude-cas          #+#    #+#             */
-/*   Updated: 2023/12/29 18:28:49 by gude-cas         ###   ########.fr       */
+/*   Updated: 2024/01/03 12:23:08 by gude-cas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	main(int ac, char **av)
 	if (check_args(ac, av))
 	{
 		init_data(av);
-		init_threads();
+		philosophers();
 		free(info()->philos->forks);
 		free(info()->philos);
 	}

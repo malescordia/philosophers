@@ -6,13 +6,13 @@
 /*   By: gude-cas <gude-cas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 14:39:05 by gude-cas          #+#    #+#             */
-/*   Updated: 2023/12/09 13:07:05 by gude-cas         ###   ########.fr       */
+/*   Updated: 2024/01/03 12:23:17 by gude-cas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/philosophers.h"
 
-void	init_threads(void)
+void	philosophers(void)
 {
 	int	i;
 
