@@ -6,7 +6,7 @@
 /*   By: gude-cas <gude-cas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 14:39:23 by gude-cas          #+#    #+#             */
-/*   Updated: 2023/12/07 21:25:01 by gude-cas         ###   ########.fr       */
+/*   Updated: 2024/01/03 11:40:56 by gude-cas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 int	is_positive(char *str)
 {
-	int	i;
-
-	i = 0;
-	if (str[i] == '-')
+	if (str[0] == '-')
 	{
 		printf("Argument values must be positive.\n");
 		return (0);
